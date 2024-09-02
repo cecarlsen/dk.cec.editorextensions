@@ -1,0 +1,8 @@
+{
+  "name": "dk.cec.editorextensions",
+  "version": "0.0.5",
+  "displayName": "Editor Extensions",
+  "description": "Quality of life editor extensions.",
+  "unity": "2022.3",
+  "type": "code"
+}
