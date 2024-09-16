@@ -1,6 +1,11 @@
 # Changelog
 
 
+## [0.0.6] 2024-09-XX (in progress)
+
+	- Added x2 screenshot option.
+
+
 ## [0.0.5] 2024-09-02
 
 	- Moved package to it's own repo.

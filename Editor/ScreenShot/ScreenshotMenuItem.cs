@@ -34,25 +34,31 @@ namespace CEC.EditorExtensions
 			Screenshot( 1 );
 		}
 
-		[MenuItem ( "Tools/Screenshot/PNG x4", false, 2)]
+		[MenuItem ( "Tools/Screenshot/PNG x2", false, 2)]
+		static void ScreenshotX2()
+		{
+			Screenshot( 2 );
+		}
+
+		[MenuItem ( "Tools/Screenshot/PNG x4", false, 3)]
 		static void ScreenshotX4()
 		{
 			Screenshot( 4 );
 		}
 
-		[MenuItem ( "Tools/Screenshot/PNG x8", false, 3)]
+		[MenuItem ( "Tools/Screenshot/PNG x8", false, 4)]
 		static void ScreenshotX8()
 		{
 			Screenshot( 8 );
 		}
 
-		[MenuItem ( "Tools/Screenshot/PNG x12", false, 4)]
+		[MenuItem ( "Tools/Screenshot/PNG x12", false, 5)]
 		static void ScreenshotX12()
 		{
 			Screenshot( 12 );
 		}
 
-		[MenuItem ( "Tools/Screenshot/PNG x16", false, 5)]
+		[MenuItem ( "Tools/Screenshot/PNG x16", false, 6)]
 		static void ScreenshotX16()
 		{
 			Screenshot( 16 );
