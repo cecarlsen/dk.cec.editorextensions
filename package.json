@@ -3,6 +3,10 @@
   "version": "0.0.5",
   "displayName": "Editor Extensions",
   "description": "Quality of life editor extensions.",
+    "author": {
+    "name": "Carl Emil Carlsen",
+    "url": "https://cec.dk"
+  },
   "unity": "2022.3",
   "type": "code"
 }
