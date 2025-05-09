@@ -28,7 +28,7 @@ namespace CEC.EditorExtensions
 {
 	public class ScreenshotMenuItem : ScriptableObject
 	{
-		[MenuItem( "Tools/Screenshot/PNG #%&s", false, 1 )]
+		[MenuItem( "Tools/Screenshot/PNG #%&p", false, 1 )]
 		static void Screenshot()
 		{
 			Screenshot( 1 );
