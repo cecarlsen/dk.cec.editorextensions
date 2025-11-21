@@ -21,12 +21,7 @@
 
 using UnityEditor;
 using UnityEngine;
-using System.Collections;
 using System.Collections.Generic;
-using System;
-using System.IO;
-using System.Runtime.Serialization.Formatters.Binary;
-using System.Runtime.Serialization;
 
 namespace CEC.EditorExtensions
 {
@@ -65,6 +60,7 @@ namespace CEC.EditorExtensions
 
 			// Combine to mesh.
 			Mesh combinedMesh = new Mesh();
+			combinedMesh.indexFormat = UnityEngine.Rendering.IndexFormat.UInt32;
 			combinedMesh.CombineMeshes( combines.ToArray(), true, true, true );
 
 			// Ask for path.
